@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: #000000;
 }
 
 /* Headings */
@@ -30,10 +30,11 @@ p {
 
 .container-fluid{
   padding: 7% 15%;
+  
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #E0F6FF;
   padding: 50px 0 20px;
 }
 
@@ -58,7 +59,7 @@ p {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #000000;
   font-size: 0.75rem;
   padding: 20px 0;
 }
@@ -68,8 +69,9 @@ p {
 
 
 .colored-section {
-  background-color: #66BFBF;
-  color: #fff;
+  background-color: #E0F6FF;
+  color: #000000;
+  
 }
 
 .white-section {
@@ -78,23 +80,30 @@ p {
 
 /* Navigation Bar */
 
+.navbar-nav a{
+  color: rgb(0, 0, 0) !important;
+}
+
 .navbar {
   padding: 0 0 4.5rem;
+  
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  
 }
 
 .nav-item {
   padding: 0 18px;
+  
 }
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat-Black";
 }
 
 /* Buttons */
@@ -106,8 +115,8 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #66BFBF;
-  color: #fff;
+  background-color: #E0F6FF;
+  color: #000000;
   text-align: left;
 }
 
@@ -139,7 +148,7 @@ p {
 }
 
 .icon {
-  color: #66BFBF;
+  color: #E0F6FF;
   margin-bottom: 1rem;
 }
 
@@ -150,7 +159,7 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #66BFBF;
+  background-color: #E0F6FF;
 }
 
 .testimonial-text {
@@ -166,7 +175,7 @@ p {
 
 
 #press {
-  background-color: #66BFBF;
+  background-color: #E0F6FF;
   padding-bottom: 3%;
 }
 
